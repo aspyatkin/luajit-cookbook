@@ -1,0 +1,5 @@
+default['luajit']['dir'] = '/usr/local'
+default['luajit']['version']  = '2.0.4'
+default['luajit']['url'] = 'http://luajit.org/download'
+default['luajit']['checksum'] = '620fa4eb12375021bef6e4f237cbd2dd5d49e56beb414bee052c746beef1807d'
+default['luajit']['creates'] = 'libluajit-5.1.a'
