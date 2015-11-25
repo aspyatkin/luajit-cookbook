@@ -8,5 +8,7 @@ version '1.0.0'
 
 recipe 'luajit', 'Installs and configures luajit'
 
+source_url 'https://github.com/aspyatkin/luajit-cookbook' if respond_to? :source_url
+
 depends 'apt'
 depends 'build-essential'
